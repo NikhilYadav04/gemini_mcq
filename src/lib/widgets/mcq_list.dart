@@ -269,7 +269,7 @@ class _MCQCardState extends State<MCQCard> {
 
               SizedBox(height: sh * 0.012),
 
-              // Check Answer Button
+              //* Check Answer Button
               if (!_showAnswer && _selectedAnswer != null)
                 Container(
                   width: double.infinity,
@@ -310,7 +310,7 @@ class _MCQCardState extends State<MCQCard> {
                   ),
                 ),
 
-              // Explanation
+              //* Explanation
               if (_showAnswer && widget.mcq.explanation != null)
                 Container(
                   margin: EdgeInsets.only(top: sh * 0.015),
@@ -371,7 +371,7 @@ class _MCQCardState extends State<MCQCard> {
                   ),
                 ),
 
-              // Reset Button
+              //* Reset Button
               if (_showAnswer)
                 Padding(
                   padding: EdgeInsets.only(top: sh * 0.01),

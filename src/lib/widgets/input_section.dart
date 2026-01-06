@@ -217,7 +217,7 @@ class _InputSectionState extends State<InputSection> {
 
               SizedBox(height: sh * 0.02),
 
-              // OR Divider
+              //* OR Divider
               Row(
                 children: [
                   Expanded(
@@ -272,7 +272,7 @@ class _InputSectionState extends State<InputSection> {
 
               SizedBox(height: sh * 0.02),
 
-              // File Upload Section
+              //* File Upload Section
               if (_selectedFileName == null)
                 Container(
                   decoration: BoxDecoration(
@@ -365,7 +365,7 @@ class _InputSectionState extends State<InputSection> {
 
               SizedBox(height: sh * 0.025),
 
-              // Generate Button
+              //* Generate Button
               Container(
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
